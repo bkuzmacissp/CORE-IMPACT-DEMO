@@ -1,0 +1,35 @@
+Vagrant.require_plugin "vagrant-reload"
+Vagrant.configure("2") do |config|
+  config.vm.provider "virtualbox" do |v|
+    v.gui=true
+    v.memory = 8092
+    v.cpus = 2
+  end
+
+  config.vm.define "impact" do |impact|
+    impact.vm.box_url = "file://../../windows_10_virtualbox.box"
+    impact.vm.box = "windows_10"
+    impact.vm.hostname=  "impact-demo"
+	  impact.vm.network :private_network, ip: "192.168.0.10"
+    impact.vm.provisioners
+    impact.vm.provision "shell" do |s|
+      s.powershell_elevated_interactive=true
+      s.inline = "Enable-WindowsOptionalFeature -Online -FeatureName NetFx3 -All"
+    end
+    impact.vm.provision "shell" do |s|
+       s.powershell_elevated_interactive=true
+       s.inline =  "c:\\vagrant\\impact\\installimpact.1.bat"
+    end
+    impact.vm.provision :reload
+    impact.vm.provision "shell" do |s|
+      s.powershell_elevated_interactive=true
+      s.inline = "c:\\vagrant\\impact\\installimpact.2.bat"
+    end
+    impact.vm.provision :reload
+    impact.vm.provision "shell" do |s|
+      s.powershell_elevated_interactive=true
+      s.inline = "c:\\vagrant\\impact\\installimpact.3.bat"
+    end
+    impact.vm.provision :reload
+  end
+end

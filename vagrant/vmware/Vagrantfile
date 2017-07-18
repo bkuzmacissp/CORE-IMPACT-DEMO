@@ -1,0 +1,47 @@
+Vagrant.require_plugin "vagrant-reload"
+Vagrant.configure("2") do |config|
+  config.vm.provider "vmware_workstation" do |v|
+    v.gui=true
+    v.vmx["memsize"] = "8092"
+    v.vmx["numvcpus"] = "2"
+	end
+  config.vm.provider "virtualbox" do |v|
+    v.gui=true
+    v.memory = 8092
+    v.cpus = 2
+  end
+
+  config.vm.define "impact-win7x64ent" do |impact|
+    impact.vm.box = "impact-demo-win7x64ent"
+    impact.vm.hostname=  "impact-win7x64ent"
+	  impact.vm.network :private_network, ip: "192.168.0.10"
+    impact.vm.provisioners
+    #Copy SP1 Installer to c:\windows\Temp
+    impact.vm.provision "shell", inline: "copy c:\\vagrant\\windows6.1-KB976932-X64.exe c:\\windows\\temp\\windows6.1-KB976932-X64.exe"
+    #Install SP1
+    impact.vm.provision "shell", inline: "start-process c:\\windows\\temp\\windows6.1-KB976932-X64.exe -Argumentlist '/unattend /nodialog /noreboot' -wait"
+    #Force Reboot after installing Service Pack 1
+    impact.vm.provision :reload
+    impact.vm.provision "shell", inline: "start-process c:\\vagrant\\vcredist_x86.exe -ArgumentList '/q' -wait"
+    impact.vm.provision "shell", inline: "start-process c:\\vagrant\\wic_x64_enu.exe  -ArgumentList '/quiet /norestart' -wait"
+    impact.vm.provision "shell", inline: "start-process c:\\vagrant\\dotNetFx40_Full_setup.exe -ArgumentList '/q /norestart' -wait"
+    impact.vm.provision "shell", inline: "start-process c:\\vagrant\\SQLEXPR_x86_ENU.exe -ArgumentList '/q /HIDECONSOLE /ACTION=Install /IACCEPTSQLSERVERLICENSETERMS /FEATURES=SQL /INSTANCENAME=IMPACT /AGTSVCACCOUNT=""NT AUTHORITY\\NETWORK SERVICE"" /SQLSVCACCOUNT=""NT AUTHORITY\\NETWORK SERVICE"" /SQLSYSADMINACCOUNTS=""BUILTIN\\Administrators""' -Wait"
+    impact.vm.provision "shell", inline: "start-process c:\\vagrant\\iisexpress_1_11_x86_en-US.msi -ArgumentList '/qn REBOOT=ReallySuppress' -wait"
+    impact.vm.provision "shell", inline: "start-process c:\\vagrant\\CRRuntime_12_3_mlb.msi -ArgumentList '/passive /norestart' -wait"
+    impact.vm.provision "shell" do |s|
+       s.powershell_elevated_interactive=true
+       s.inline =  "c:\\vagrant\\impact\\installimpact.1.bat"
+    end
+    impact.vm.provision :reload
+    impact.vm.provision "shell" do |s|
+      s.powershell_elevated_interactive=true
+      s.inline = "c:\\vagrant\\impact\\installimpact.2.bat"
+    end
+    impact.vm.provision :reload
+    impact.vm.provision "shell" do |s|
+      s.powershell_elevated_interactive=true
+      s.inline = "c:\\vagrant\\impact\\installimpact.3.bat"
+    end
+    impact.vm.provision :reload
+  end
+end

@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<steps>
+    <window caption="Open File - Security Warning" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Open File - Security Warning]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[The publisher could not be verified.  Are you sure you want to run this software?]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Run]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+   <window caption="Core Impact" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Insert passphrase to decrypt Core Impact]]></description>
+        <controls>
+           	<control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Insert passphrase to decrypt Core Impact]]></value>
+            </control>
+       	    <control type="Edit" wait="0" action="set text" repeat="1" text="#Var[PASSPHRASE]#" forced = "true" visible="true" enabled="true">
+                <value><![CDATA[]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Decrypt]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Core Impact" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true" finalizer="true">
+        <description><![CDATA[Wrong passphrase!]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[OK]]></value>
+            </control>
+        </controls>
+    </window>
+	
+
+    <window caption="System Requirements " className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Current system configuration fails to meet minimum system requirements.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[OK]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Open File - Security Warning" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[The publisher could not be verified.  Are you sure you want to run this software?]]></description>
+        <controls>
+           	<control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[The publisher could not be verified.  Are you sure you want to run this software?]]></value>
+            </control>
+
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Run]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="User Account Control" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[User Account Control]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Yes]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Installing external dependences]]></description>
+        <controls>
+           	<control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Core Impact requires the following items to be installed on your computer. Click Install to begin installing these requirements.]]></value>
+            </control>
+
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Install]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true" finalizer="true">
+        <description><![CDATA[Do not restart system]]></description>
+        <controls>
+           	<control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[The installation of Core Impact requires a reboot.  Click Yes to restart now or No if you plan to restart later.]]></value>
+            </control>
+
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&No]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Welcome to the InstallShield Wizard for Core Impact]]></description>
+        <controls>
+           	<control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Welcome to the InstallShield Wizard for Core Impact]]></value>
+            </control>
+
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+	
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Welcome to the InstallShield Wizard for Core Impact]]></description>
+        <controls>
+           	<control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Welcome to the InstallShield Wizard for Core Impact]]></value>
+            </control>
+
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[License Agreement]]></description>
+        <controls>
+       	    <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[License Agreement]]></value>
+            </control>
+           	<control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[I &accept the terms of the license agreement]]></value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="false">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Choose Destination Location]]></description>
+        <controls>
+       	    <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Choose Destination Location]]></value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Warning]]></description>
+        <controls>
+       	    <control type="Static" wait="1" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Warning]]></value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+	
+	
+
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Warning - Previous installation]]></description>
+        <controls>
+       	    <control type="Static" wait="1" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Warning]]></value>
+            </control>
+            <control type="Static" wait="1" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[The Core Impact database will be preserved.]]></value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+	
+	
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Prompt - Keep scheduled tasks]]></description>
+        <controls>
+       	    <control type="Static" wait="1" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Would you like the uninstaller to remove any scheduled tasks that have been created?*NewLine*If you are upgrading or reinstalling it is recommended to click No.]]></value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&No]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+    
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Start Copying Files]]></description>
+        <controls>
+       	    <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Start Copying Files]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+	
+	
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="1" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Core Impact requires Microsoft SQL Server Express 2005 SP3]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Core Impact requires Microsoft SQL Server Express 2005 SP3.*NewLine*Click OK to install Microsoft SQL Server Express 2005 SP3 or Cancel to exit the installation of Core Impact Pro.]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[OK]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Unable to add Core Impact to Windows Firewall Exception List" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Unable to add Core Impact to Windows Firewall Exception List]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[OK]]></value>
+            </control>
+        </controls>
+    </window>
+	
+
+
+	<window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Unable to add Core Impact to Windows Firewall Exception List]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Unable to add Core Impact Service to Windows Firewall Exception List]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[OK]]></value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Unable to add Core Impact Update Notifier to Windows Firewall Exception List]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Unable to add Core Impact Update Notifier to Windows Firewall Exception List]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[OK]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+	
+	<window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="0" action="none" repeat="1"  visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[InstallShield Wizard Complete]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[InstallShield Wizard Complete]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[No, I will restart my computer later.]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Core Impact - InstallShield Wizard" className= "#32770" wait="10" action="none" repeat="1"  visible="true" enabled="true" finalizer="true">
+        <description><![CDATA[InstallShield Wizard Complete]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[InstallShield Wizard Complete]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Finish]]></value>
+            </control>
+        </controls>
+    </window>
+	
+</steps>

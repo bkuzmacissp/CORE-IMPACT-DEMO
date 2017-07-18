@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<steps>
+    <window caption="Open File - Security Warning" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Open File - Security Warning]]></description>
+        <controls>
+            <control type="Static" wait="5" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[The publisher could not be verified.  Are you sure you want to run this software?]]></value>
+            </control>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Run]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact 3rd Party" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Insert passphrase to decrypt Core Impact 3rd Party]]></description>
+        <controls>
+            <control type="Static" wait="5" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Insert passphrase to decrypt Core Impact 3rd Party]]></value>
+            </control>
+            <control type="Edit" wait="5" action="set text" repeat="1" text="#Var[PASSPHRASE]#" forced = "true" visible="true" enabled="true">
+                <value><![CDATA[]]></value>
+            </control>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Decrypt]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Core Impact 2017 R1 3rd party Components" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[This wizard will guide you through the installation of Core Impact 2017 R1 3rd party Components.]]></description>
+        <controls>
+            <control type="Static" wait="5" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Welcome to the Core Impact 2017 R1 3rd party Components Setup Wizard]]> </value>
+            </control>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact 2017 R2 3rd party Components" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[This wizard will guide you through the installation of Core Impact 2017 R2 3rd party Components.]]></description>
+        <controls>
+            <control type="Static" wait="5" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Welcome to the Core Impact 2017 R2 3rd party Components Setup Wizard]]> </value>
+            </control>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+
+
+    <window caption="Core Impact 2017 R1 3rd party Components " className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Choose Install Location.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Choose Install Location]]> </value>
+            </control>
+            <control type="Button" wait="5" action="click"  repeat="2" visible="true" enabled="true">
+                <value> <![CDATA[&Install]]></value>
+            </control>
+            <control type="Button" wait="5" action="click"  repeat="2" visible="true" enabled="true">
+                <value> <![CDATA[&Install]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact 2017 R2 3rd party Components " className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Choose Install Location.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Choose Install Location]]> </value>
+            </control>
+            <control type="Button" wait="5" action="click"  repeat="2" visible="true" enabled="true">
+                <value> <![CDATA[&Install]]></value>
+            </control>
+            <control type="Button" wait="5" action="click"  repeat="2" visible="true" enabled="true">
+                <value> <![CDATA[&Install]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+	
+	
+    <window caption="Windows Security" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Choose Install Location.]]></description>
+        <controls>
+            <control type="Syslink" wait="5" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[You should only install driver software from publishers you trust.  <A HREF="mshelp://windows/?id=5622d7d6-531b-4e76-be48-0059d38339c4">How can I decide which device software is safe to install?</A>]]> </value>
+            </control>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Install]]> </value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Windows Security" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Choose Install Location.]]></description>
+        <controls>
+            <control type="Button" wait="3" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Install]]> </value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Hardware Installation" className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="false">
+        <description><![CDATA[Hardware Installation.]]></description>
+        <controls>
+            <control type="Button" wait="3" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Continue Anyway]]> </value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Core Impact 2017 R1 3rd party Components " className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="true">
+        <description><![CDATA[Completing the Core Impact 2017 R1 3rd party Components Setup Wizard]]></description>
+        <controls>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact 2017 R2 3rd party Components " className= "#32770" wait="5" action="none" repeat="1" visible="true" enabled="true" finalizer="true">
+        <description><![CDATA[Completing the Core Impact 2017 R2 3rd party Components Setup Wizard]]></description>
+        <controls>
+            <control type="Button" wait="5" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+
+
+</steps>

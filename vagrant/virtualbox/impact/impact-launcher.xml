@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<steps>
+    <window caption="CORE Impact Professional Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[CORE Impact Activation Wizard]]></description>
+        <controls>
+            <control type="Button" wait="0" action="none" repeat="1" visible="true" enabled="false">
+                <value> <![CDATA[< &Back]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Core Impact Pro Activation Wizard]]></description>
+        <controls>
+            <control type="Button" wait="0" action="none" repeat="1" visible="true" enabled="false">
+                <value> <![CDATA[< &Back]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Core Impact Activation Wizard]]></description>
+        <controls>
+            <control type="Button" wait="0" action="none" repeat="1" visible="true" enabled="false">
+                <value> <![CDATA[< &Back]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+	
+    <window caption="CORE Impact Professional Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate automatically via your Internet connection (the preferred method)]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Activate automatically via your Internet connection (the preferred method)]]> </value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate automatically via your Internet connection (the preferred method)]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Activate automatically via your Internet connection (the preferred method)]]> </value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate automatically via your Internet connection (the preferred method)]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Activate automatically via your Internet connection (the preferred method)]]> </value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+		
+    <window caption="CORE Impact Professional Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate automatically via your Internet connection (the preferred method)]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Submit the following information to identify this instance of CORE Impact Professional]]> </value>
+            </control>
+
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate automatically via your Internet connection (the preferred method)]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Submit the following information to identify this instance of Core Impact Pro]]> </value>
+            </control>
+
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate automatically via your Internet connection (the preferred method)]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Submit the following information to identify this instance of Core Impact Pro]]> </value>
+            </control>
+
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="CORE Impact Professional Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate CORE Impact Professional: Choose the preferred machine identifying information to submit along with the activation.]]></description>
+        <controls>            
+            <control type="Button" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Machine name]]> </value>
+            </control>		
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate Core Impact Pro: Choose the preferred machine identifying information to submit along with the activation.]]></description>
+        <controls>            
+            <control type="Button" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Machine name]]> </value>
+            </control>		
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate Core Impact: Choose the preferred machine identifying information to submit along with the activation.]]></description>
+        <controls>            
+            <control type="Button" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Machine name]]> </value>
+            </control>		
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	
+	
+	
+    <window caption="CORE Impact Professional Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate CORE Impact Professional: Choose the preferred connection mechanism.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Internet connection]]> </value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate Core Impact Pro: Choose the preferred connection mechanism.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Internet connection]]> </value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Activate Core Impact: Choose the preferred connection mechanism.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Internet connection]]> </value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+
+    <window caption="CORE Impact Professional Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Thank you. The activation process has completed successfully.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Thank you. The activation process has completed successfully.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Thank you. The activation process has completed successfully.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+	<window caption="Core Impact Pro Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Core Impact Pro is not activated]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Back]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Core Impact Activation Wizard" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Core Impact is not activated]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Back]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	
+    <window caption="Database Creation Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Database Creation Wizard]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Database Creation Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[CORE IMPACT Professional is performing the necessary actions, please wait...]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[CORE IMPACT Professional is performing the necessary actions, please wait...]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Database Creation Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Core Impact Pro is performing the necessary actions, please wait...]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Core Impact Pro is performing the necessary actions, please wait...]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Database Creation Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Core Impact is performing the necessary actions, please wait...]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Core Impact is performing the necessary actions, please wait...]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	
+
+    <window caption="Database Creation Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Database Creation process has completed successfully.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Database Creation process has completed successfully.]]></value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Finish]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Database Migration Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Database Migration Wizard]]></description>
+        <controls>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Database Migration Wizard" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Database Migration process has completed successfully.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Database Migration process has completed successfully.]]></value>
+            </control>
+            <control type="Button" wait="1" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Finish]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+    <window caption="Setup CORE Impact Professional" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[This wizard helps you to setup CORE Impact Professional allowing you to customize the following optios:...]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[This wizard helps you to setup CORE Impact Pro allowing you to customize the following optios:...]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Setup Core Impact" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[This wizard helps you to setup Core Impact allowing you to customize the following options:...]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Setup CORE Impact Professional" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Use the Network Interface drop list to select the network interface that will be used for modules that use PCAP.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Network Interface:]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Use the Network Interface drop list to select the network interface that will be used for modules that use PCAP.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Network Interface:]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Setup Core Impact" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Use the Network Interface drop list to select the network interface that will be used for modules that use PCAP.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Network Interface:]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	
+	
+    <window caption="Setup CORE Impact Professional" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Choose the preferred connection mechanism.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Internet connection]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Choose the preferred connection mechanism.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Internet connection]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Setup Core Impact" className= "#32770" wait="0" action="none" repeat="3" visible="true" enabled="true">
+        <description><![CDATA[Choose the preferred connection mechanism.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[Internet connection]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="3" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+	
+	
+
+    <window caption="Setup CORE Impact Professional" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Choose the preferred password cracking service options.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[CORE Impact can automatically submit encrypted credentials learned during the course of a security assessment to CORE CloudCypher, a service managed by CORE Security.]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Choose the preferred password cracking service options.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Core Impact Pro can automatically submit encrypted credentials learned during the course of a security assessment to CORE CloudCypher, a service managed by Core Security.]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Setup Core Impact" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Choose the preferred password cracking service options.]]></description>
+        <controls>
+            <control type="Static" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Core Impact can automatically submit encrypted credentials learned during the course of a security assessment to CORE CloudCypher, a service managed by Core Security.]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Next >]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Setup CORE Impact Professional" className= "#32770" wait="3" action="none" repeat="1" visible="true" finalizer="true" enabled="true">
+        <description><![CDATA[CORE IMPACT Pro Community Usage]]></description>
+        <controls>
+            <control type="Button" wait="2" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Yes, I am willing to participate anonymously in the user statistics program.]]></value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Finish]]></value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="3" action="none" repeat="1" visible="true" finalizer="true" enabled="true">
+        <description><![CDATA[Core Impact Pro Community Usage]]></description>
+        <controls>
+            <control type="Button" wait="2" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Yes, I am willing to participate anonymously in the user statistics program.]]></value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Finish]]></value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Setup Core Impact" className= "#32770" wait="3" action="none" repeat="1" visible="true" finalizer="true" enabled="true">
+        <description><![CDATA[Core Impact Community Usage]]></description>
+        <controls>
+            <control type="Button" wait="2" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Yes, I am willing to participate anonymously in the user statistics program.]]></value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Finish]]></value>
+            </control>
+        </controls>
+    </window>
+
+	
+	
+	<window caption="Setup CORE Impact Professional" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Setup integration with the Metasploit Framework]]></description>
+        <controls>
+            <control type="Button" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Configure Metasploit integration]]> </value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Setup integration with the Metasploit Framework]]></description>
+        <controls>
+            <control type="Button" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Configure Metasploit integration]]> </value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+
+    <window caption="Setup Core Impact" className= "#32770" wait="0" action="none" repeat="1" visible="true" enabled="true">
+        <description><![CDATA[Setup integration with the Metasploit Framework]]></description>
+        <controls>
+            <control type="Button" wait="0" action="verify" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Configure Metasploit integration]]> </value>
+            </control>
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[Finish]]> </value>
+            </control>
+        </controls>
+    </window>
+
+	
+    <window caption="Setup CORE Impact Professional" className= "#32770" wait="3" action="none" repeat="1" visible="true" finalizer="false" enabled="true">
+        <description><![CDATA[CORE IMPACT Professional Community Usage]]></description>
+        <controls>
+            <control type="Button" wait="2" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Yes, I am willing to participate anonymously in the user statistics program.]]></value>
+            </control>            
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Setup Core Impact Pro" className= "#32770" wait="3" action="none" repeat="1" visible="true" finalizer="false" enabled="true">
+        <description><![CDATA[Core Impact Pro Community Usage]]></description>
+        <controls>
+            <control type="Button" wait="2" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Yes, I am willing to participate anonymously in the user statistics program.]]></value>
+            </control>            
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+	<window caption="Setup Core Impact" className= "#32770" wait="3" action="none" repeat="1" visible="true" finalizer="false" enabled="true">
+        <description><![CDATA[Core Impact Community Usage]]></description>
+        <controls>
+            <control type="Button" wait="2" action="verify" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[Yes, I am willing to participate anonymously in the user statistics program.]]></value>
+            </control>            
+            <control type="Button" wait="2" action="click" repeat="1" visible="true" enabled="true">
+                <value><![CDATA[&Next >]]></value>
+            </control>
+        </controls>
+    </window>
+
+
+
+	
+	<window caption="Warning" className= "#32770" wait="0" action="none" repeat="1" visible="true" finalizer="true" enabled="true">
+        <description><![CDATA[IPv4 and IPv6 network interfaces were detected. This version of CORE Impact Professional will only use the IPv4 interfaces.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Don't show again]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[OK]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+	<window caption="Warning" className= "#32770" wait="0" action="none" repeat="1" visible="true" finalizer="true" enabled="true">
+        <description><![CDATA[IPv4 and IPv6 network interfaces were detected. This version of Core Impact Pro will only use the IPv4 interfaces.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Don't show again]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[OK]]> </value>
+            </control>
+        </controls>
+    </window>
+	
+    <window caption="Warning" className= "#32770" wait="0" action="none" repeat="1" visible="true" finalizer="true" enabled="true">
+        <description><![CDATA[IPv4 and IPv6 network interfaces were detected. This version of Core Impact will only use the IPv4 interfaces.]]></description>
+        <controls>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[&Don't show again]]> </value>
+            </control>
+            <control type="Button" wait="0" action="click" repeat="1" visible="true" enabled="true">
+                <value> <![CDATA[OK]]> </value>
+            </control>
+        </controls>
+    </window>
+
+</steps>
