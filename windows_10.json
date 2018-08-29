@@ -115,15 +115,6 @@
       "remote_path": "/tmp/script.bat",
       "execute_command": "{{ .Vars }} cmd /c \"{{ .Path }}\"",
       "scripts": [
-        "./scripts/install-impact-prereqs.bat"
-      ]
-    },
-
-    {
-      "type": "windows-shell",
-      "remote_path": "/tmp/script.bat",
-      "execute_command": "{{ .Vars }} cmd /c \"{{ .Path }}\"",
-      "scripts": [
         "./scripts/pin-powershell.bat",
         "./scripts/compile-dotnet-assemblies.bat",
         "./scripts/set-winrm-automatic.bat",
@@ -132,17 +123,12 @@
     }
   ],
   "post-processors": [
-    {
-      "type": "vagrant",
-      "keep_input_artifact": false,
-      "output": "windows_10_{{.Provider}}.box",
-      "vagrantfile_template": "vagrantfile-windows_10.template"
-    }
+ 
   ],
   "variables": {
-    "iso_url": "http://care.dlservice.microsoft.com/dl/download/B/8/B/B8B452EC-DD2D-4A8F-A88C-D2180C177624/15063.0.170317-1834.RS2_RELEASE_CLIENTENTERPRISEEVAL_OEMRET_X64FRE_EN-US.ISO",
+    "iso_url": "http://download.microsoft.com/download/1/B/F/1BFE5194-5951-452C-B62C-B2F667F9B86D/14393.0.160715-1616.RS1_RELEASE_CLIENTENTERPRISE_S_EVAL_X64FRE_EN-US.ISO",
     "iso_checksum_type": "sha1",
-    "iso_checksum": "6c60f91bf0ad7b20f469ab8f80863035c517f34f",
+    "iso_checksum": "ED6E357CBA8D716A6187095E3ABD016564670D5B",
     "autounattend": "./answer_files/10/Autounattend.xml",
     "disk_size": "61440"
   }
